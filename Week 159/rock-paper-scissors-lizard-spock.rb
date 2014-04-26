@@ -57,14 +57,17 @@ while play_again do
 
     total_games_played += 1
 
-    # TODO - Set the precision of these so that you don't get things like 33.33333333333333% var.round(2)
+    player_wins_percent = (player_wins / total_games_played.to_f) * 100.0
+    computer_wins_percent = (computer_wins / total_games_played.to_f) * 100.0
+    ties_percent = (ties / total_games_played.to_f) * 100.0
+
     puts ''
     puts '------------------------------'
     puts 'Current Summary:'
     puts '------------------------------'
-    puts "Player Wins: #{player_wins} | #{(player_wins / total_games_played.to_f) * 100.0}%"
-    puts "Computer Wins: #{computer_wins} | #{(computer_wins / total_games_played.to_f) * 100.0}%"
-    puts "Ties: #{ties} | #{(ties / total_games_played.to_f) * 100.0}%"
+    puts "Player Wins: #{player_wins} | #{player_wins_percent.round(2)}%"
+    puts "Computer Wins: #{computer_wins} | #{computer_wins_percent.round(2)}%"
+    puts "Ties: #{ties} | #{ties_percent.round(2)}%"
     puts '------------------------------'
     puts "Total Games Played: #{total_games_played}"
     puts '------------------------------'
