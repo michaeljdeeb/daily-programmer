@@ -15,9 +15,12 @@ def torn_number_calculator(number_string)
     possible_torn_number = "%04d" % possible_torn_number
 
     # Return added for when the user enters a number and it isn't a torn number.
-    puts "Checking #{possible_torn_number.to_s} vs #{number_string}"
     if possible_torn_number.to_s == number_string
-        puts "#{number_string} is a torn number."
+        if possible_torn_number.chars.to_a.uniq.length == 4
+            puts "#{number_string} is a torn number."
+        else
+            puts "#{number_string} is a torn number, but it's digits aren't unique."
+        end
         return true
     else
         return false
@@ -33,7 +36,6 @@ def enter_torn_number
     # number = number.to_i
 
     # Validating the user input
-    # TODO - This still allows non-unique inputs (ex. 0000)
     if number_string.length != 4
         puts "You didn't enter a four digit number."
         Kernel.exit
@@ -49,15 +51,10 @@ end
 def calculate_torn_numbers
     for i in 0..9999
         four_digit_number = "%04d" % i
-
-        # Skip non-unique numbers (ex. 0000)
-        four_digit_number_array = four_digit_number.chars.to_a
-        if four_digit_number.chars.to_a.uniq.length == 4
-            # puts "Unique: #{four_digit_number}"
-            torn_number_calculator four_digit_number
-        end
+        torn_number_calculator four_digit_number
     end
 end
+
 
 # Main
 puts "Welcome to the torn number finder!"

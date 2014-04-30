@@ -3,7 +3,7 @@ Daily Programmer Solutions
 
 My solutions to problems posed by [reddit.com/r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer/) (the plan is to write them in Ruby)
 
-The week numbers will bring you into that weeks challenge solutions on GitHub. The name links will bring you to the reddit post if you'd like to see the challenges yourself.
+The week numbers will bring you into that week's solutions on GitHub. The name links will bring you to the reddit post if you'd like to see the challenges yourself.
 
 - [Week #160](Week%20160/)
     - [Trigonometric Triangles](http://www.reddit.com/r/dailyprogrammer/comments/2451r5/4282014_challenge_160_easy_trigonometric_triangle/) [Easy]
