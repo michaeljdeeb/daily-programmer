@@ -6,7 +6,7 @@ My solutions to problems posed by [reddit.com/r/dailyprogrammer](http://www.redd
 The week numbers will bring you into that week's solutions on GitHub. The name links will bring you to the reddit post if you'd like to see the challenges yourself.
 
 - [Week #161](Week%20161/)
-    - [Blackjack!](http://www.reddit.com/r/dailyprogrammer/comments/24r50l/552014_161_easy_blackjack/)
+    - [Blackjack!](http://www.reddit.com/r/dailyprogrammer/comments/24r50l/552014_161_easy_blackjack/) [Easy]
 - [Week #160](Week%20160/)
     - [Trigonometric Triangles](http://www.reddit.com/r/dailyprogrammer/comments/2451r5/4282014_challenge_160_easy_trigonometric_triangle/) [Easy]
 - [Week #159](Week%20159/)
