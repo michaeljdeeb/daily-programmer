@@ -7,6 +7,7 @@ The week numbers will bring you into that week's solutions on GitHub. The name l
 
 - [Week #161](Week%20161/)
     - [Blackjack!](http://www.reddit.com/r/dailyprogrammer/comments/24r50l/552014_161_easy_blackjack/) [Easy]
+    - [Appointing Workers](http://www.reddit.com/r/dailyprogrammer/comments/24ypno/572014_challenge_161_medium_appointing_workers/) [Intermediate]
 - [Week #160](Week%20160/)
     - [Trigonometric Triangles](http://www.reddit.com/r/dailyprogrammer/comments/2451r5/4282014_challenge_160_easy_trigonometric_triangle/) [Easy]
 - [Week #159](Week%20159/)
