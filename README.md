@@ -4,7 +4,8 @@ Daily Programmer Solutions
 My solutions to problems posed by [reddit.com/r/dailyprogrammer](http://www.reddit.com/r/dailyprogrammer/) (the plan is to write them in Ruby)
 
 The week numbers will bring you into that week's solutions on GitHub. The name links will bring you to the reddit post if you'd like to see the challenges yourself.
-
+- [Week #163](Week%20163/)
+    - [Probability Distribution of a 6 Sided Di](http://www.reddit.com/r/dailyprogrammer/comments/25y2d0/5192014_challenge_163_easy_probability/) [Easy]
 - [Week #161](Week%20161/)
     - [Blackjack!](http://www.reddit.com/r/dailyprogrammer/comments/24r50l/552014_161_easy_blackjack/) [Easy]
     - [Appointing Workers](http://www.reddit.com/r/dailyprogrammer/comments/24ypno/572014_challenge_161_medium_appointing_workers/) [Intermediate]
